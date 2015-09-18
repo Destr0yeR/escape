@@ -15,7 +15,7 @@ ESCAPE.STATE.Preloader.prototype.preload = function() {
     game.load.setPreloadSprite(game.loadingBar,0);
 
     game.load.image('player', 'assets/characters/player.png');
-    game.load.image('game-title', 'assets/game-title.png');
+    game.load.image('menu-title', 'assets/game-title.png');
 };
 
 ESCAPE.STATE.Preloader.prototype.create = function() {
