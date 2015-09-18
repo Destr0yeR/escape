@@ -1,5 +1,9 @@
-ESCAPE = {};
+var ESCAPE = {};
 
-ESCAPE.Config = {};
+ESCAPE.CONFIG = {};
 
-ESCAPE.Config.DEBUG = true;
+ESCAPE.CONFIG.DEBUG = true;
+
+ESCAPE.STATE = {};
+
+ESCAPE.STATE.LEVEL = {};

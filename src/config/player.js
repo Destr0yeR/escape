@@ -1,4 +1,4 @@
-Config.PLAYER = {
+ESCAPE.CONFIG.PLAYER = {
 	velocity: {
 		x:150,
 		y:150
@@ -8,7 +8,7 @@ Config.PLAYER = {
 		y:0
 	},
 	limitMovement: {
-		min{
+		min: {
 			x: 0,
 			y: 0
 		},
@@ -16,4 +16,5 @@ Config.PLAYER = {
 			x: 800,
 			y: 600
 		}
-}
+	}
+};
