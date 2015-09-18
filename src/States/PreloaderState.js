@@ -6,7 +6,7 @@ ESCAPE.STATE.Preloader.prototype.init = function() {
 
 ESCAPE.STATE.Preloader.prototype.preload = function() {
     game.background = game.add.sprite(0, 0, 'loader-background');
-    game.loadingTitle = game.add.sprite(game.camera.width / 2, 100 , 'loader-title');
+    game.loadingTitle = game.add.sprite(game.camera.width / 2, 200 , 'loader-title');
     game.loadingBar = game.add.sprite(game.camera.width / 2, game.camera.height / 2, 'loadingBar');
 
     game.loadingTitle.anchor.setTo(0.5, 0.5);
