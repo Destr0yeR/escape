@@ -22,6 +22,11 @@ ESCAPE.STATE.Preloader.prototype.preload = function() {
     game.load.image('credits-button', 'assets/buttons/credits-button.png');
     game.load.image('quit-game-button', 'assets/buttons/quit-game-button.png');
 
+    game.load.image('menu-button', 'assets/buttons/menu-button.png');
+    
+    game.load.image('how-to-play-screen', 'assets/background.jpg');
+    game.load.image('credits-screen', 'assets/background.jpg');
+
     game.load.image('player', 'assets/characters/player.png');
 };
 

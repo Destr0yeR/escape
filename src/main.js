@@ -5,5 +5,6 @@ game.state.add('Preloader', ESCAPE.STATE.Preloader);
 game.state.add('Menu', ESCAPE.STATE.Menu);
 game.state.add('Lobby', ESCAPE.STATE.Lobby);
 game.state.add('HowToPlay', ESCAPE.STATE.HowToPlay);
+game.state.add('Credits', ESCAPE.STATE.Credits);
 
 game.state.start('Boot');
