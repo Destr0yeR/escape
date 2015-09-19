@@ -14,8 +14,26 @@ ESCAPE.STATE.Preloader.prototype.preload = function() {
 
     game.load.setPreloadSprite(game.loadingBar,0);
 
-    game.load.image('player', 'assets/characters/player.png');
     game.load.image('menu-title', 'assets/game-title.png');
+    game.load.image('menu-background', 'assets/background.jpg');
+
+    game.load.image('play-button', 'assets/buttons/play-button.png');
+    game.load.image('how-to-play-button', 'assets/buttons/how-to-play-button.png');
+    game.load.image('credits-button', 'assets/buttons/credits-button.png');
+    game.load.image('quit-game-button', 'assets/buttons/quit-game-button.png');
+
+    game.load.image('menu-button', 'assets/buttons/menu-button.png');
+    
+    game.load.image('how-to-play-screen', 'assets/background.jpg');
+    game.load.image('credits-screen', 'assets/background.jpg');
+
+    game.load.spritesheet('player', 'assets/characters/player.png', 32, 32);
+
+
+    game.load.tilemap('level', 'assets/tilemaps/maps/testlevel.json', null, Phaser.Tilemap.TILED_JSON);
+    game.load.image('tiles', 'assets/tilemaps/tiles/gridtiles.png');
+    game.load.json('config', 'assets/tilemaps/config/testlevel.json');
+
 };
 
 ESCAPE.STATE.Preloader.prototype.create = function() {

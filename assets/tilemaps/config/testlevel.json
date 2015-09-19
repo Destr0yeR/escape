@@ -1,0 +1,9 @@
+{
+    "colission_tiles": [12, 0],
+    "player": {
+        "start":{
+            "x": 40,
+            "y": 1200
+        }
+    }
+}

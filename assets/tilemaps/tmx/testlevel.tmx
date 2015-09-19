@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="gridtiles" tilewidth="32" tileheight="32" tilecount="140">
+  <image source="../../../../../Descargas/phaser-examples/examples/assets/tilemaps/tiles/gridtiles.png" width="448" height="320"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKxCAMQFEP4J276MW76qIFicZEY/gfstNJHwydqaWUmmROD0esWo7rkMERa3odmmbuasPRDoc+HO1w6MPx7RbGOxzfcNgUwWHxf9HjfTUaDhweaXaNOrwms2PmDg47hxQO3T7tM2nu4LDJ692AY2+9juhld3j/Xlh/T3HgWOmQzvU+QzTH/6zFrl2O97zVrp0Oy1045M9e7fAaHDg8HRnmAQqkny8=
+  </data>
+ </layer>
+</map>
