@@ -4,6 +4,7 @@ ESCAPE.STATE.Boot.prototype.init = function() {
     if(ESCAPE.CONFIG.DEBUG){
         game.add.plugin(Phaser.Plugin.Debug);
     }
+    game.physics.startSystem(Phaser.Physics.ARCADE);
 };
 
 ESCAPE.STATE.Boot.prototype.preload = function() {

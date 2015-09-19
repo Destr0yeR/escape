@@ -9,7 +9,8 @@ ESCAPE.STATE.Lobby.prototype.preload = function() {
 };
 
 ESCAPE.STATE.Lobby.prototype.create = function() {
-    game.add.sprite(0, 0, 'player');
+
+    
 };
 
 ESCAPE.STATE.Lobby.prototype.update = function() {

@@ -27,7 +27,13 @@ ESCAPE.STATE.Preloader.prototype.preload = function() {
     game.load.image('how-to-play-screen', 'assets/background.jpg');
     game.load.image('credits-screen', 'assets/background.jpg');
 
-    game.load.image('player', 'assets/characters/player.png');
+    game.load.spritesheet('player', 'assets/characters/player.png', 32, 32);
+
+
+    game.load.tilemap('level', 'assets/tilemaps/maps/testlevel.json', null, Phaser.Tilemap.TILED_JSON);
+    game.load.image('tiles', 'assets/tilemaps/tiles/gridtiles.png');
+    game.load.json('config', 'assets/tilemaps/config/testlevel.json');
+
 };
 
 ESCAPE.STATE.Preloader.prototype.create = function() {
